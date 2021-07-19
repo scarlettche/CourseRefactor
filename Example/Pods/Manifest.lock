@@ -1,0 +1,16 @@
+PODS:
+  - CourseRefactor (0.1.0)
+
+DEPENDENCIES:
+  - CourseRefactor (from `../`)
+
+EXTERNAL SOURCES:
+  CourseRefactor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CourseRefactor: 9066d9cccee3675e92ffc48f6377549329f33142
+
+PODFILE CHECKSUM: 912a4431417ebb8c160f71c46162aeaf3525ce60
+
+COCOAPODS: 1.9.1

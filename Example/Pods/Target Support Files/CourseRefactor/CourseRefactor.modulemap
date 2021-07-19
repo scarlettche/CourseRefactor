@@ -1,0 +1,6 @@
+framework module CourseRefactor {
+  umbrella header "CourseRefactor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		45AEE2C8FD43F05EA539F236 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		56CFD8C15ACCCEEE7F9D237C /* CourseRefactor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CourseRefactor.podspec; path = ../CourseRefactor.podspec; sourceTree = "<group>"; };
+		45AEE2C8FD43F05EA539F236 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56CFD8C15ACCCEEE7F9D237C /* CourseRefactor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CourseRefactor.podspec; path = ../CourseRefactor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* CourseRefactor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseRefactor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		B08A05E3F75E3F3F19A90568 /* Pods-CourseRefactor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseRefactor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CourseRefactor_Tests/Pods-CourseRefactor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC000DF0863AA574CEAB7FEB /* Pods_CourseRefactor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseRefactor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEAE7A507D66D7DC54ECF75 /* Pods-CourseRefactor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseRefactor_Example.debug.xcconfig"; path = "Target Support Files/Pods-CourseRefactor_Example/Pods-CourseRefactor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D3FEF6C9C6F83BC3772C2091 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D3FEF6C9C6F83BC3772C2091 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FA3A93E6553E384017317DA3 /* Pods-CourseRefactor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseRefactor_Example.release.xcconfig"; path = "Target Support Files/Pods-CourseRefactor_Example/Pods-CourseRefactor_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				B08A05E3F75E3F3F19A90568 /* Pods-CourseRefactor_Tests.debug.xcconfig */,
 				7DE51733050F1E5E2B521DDD /* Pods-CourseRefactor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
